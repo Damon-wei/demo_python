@@ -30,7 +30,7 @@
 # 前面讲的默认都是读取文本文件，并且是UTF-8编码的文本文件。
 # 要读取二进制文件，比如图片、视频等等，用'rb'模式打开文件即可：
 
-# with open('D:\python\workspace\demo\\202169-106.jpg', "rb") as f:
+# with open('D:\python\workspace\demo\\test.jpg', "rb") as f:
 #     print(f.read())
 
 # 字符编码

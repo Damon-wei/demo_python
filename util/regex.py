@@ -102,7 +102,7 @@ re_telephone.match('010-8086').groups()
 r = r'^([0-9a-zA-Z][\w\_\.-]+)\@\w+\.[a-z]*$'
 m = re.match(r, 'bill.gates@microsoft.com')
 if m:
-    print('email:',m.group(0))
+    print('emails:',m.group(0))
     print('username:',m.group(1))
 else:
     print('flase')
