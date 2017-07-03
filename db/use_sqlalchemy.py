@@ -2,7 +2,7 @@ from sqlalchemy import Column, String, create_engine, ForeignKey
 from sqlalchemy.orm import sessionmaker, relationship
 from sqlalchemy.ext.declarative import declarative_base
 
-# 创建对象的积基类
+# 创建对象的基类
 Base = declarative_base()
 
 # 定义user对象
